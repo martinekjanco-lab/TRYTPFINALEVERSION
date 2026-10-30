@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "trytp",
+  "version": "${version}",
+  "name": "TryTP",
+  "description": "Waits for a target player's TPA-here availability message, then sends /tpahere after 100 ms.",
+  "authors": ["OpenAI"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.trytp.TryTpClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
